@@ -52,8 +52,8 @@ scoped_threadpool = "0.1"
 stats_alloc = "0.1"
 criterion = "0.5"
 fnv = "1"
-rand = "0.9"
-rustc-hash = "1"
+rand = "0.8"
+rustc-hash = "2"
 cascara = "0.1.0"
 
 [package.metadata.docs.rs]
