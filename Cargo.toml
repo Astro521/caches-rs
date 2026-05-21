@@ -33,7 +33,7 @@ name = "wtinylfu_cache"
 harness = false
 
 [target.'cfg(target_family = "wasm")'.dependencies]
-getrandom = { version = "0.2", features = ["js"] }
+getrandom = { version = "0.3", features = ["js"] }
 
 [features]
 default = ["std"]
@@ -45,7 +45,7 @@ bitvec = { version = "1", default-features = false }
 cfg-if = "1"
 hashbrown = { version = "0.15", optional = true }
 libm = { version = "0.2", optional = true }
-rand = { version = "0.8", optional = true }
+rand = { version = "0.9", optional = true }
 
 [dev-dependencies]
 scoped_threadpool = "0.1"
